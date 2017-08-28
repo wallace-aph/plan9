@@ -8,8 +8,8 @@ int main(){
 		a++;
 	}
 	fclose(f);
-    for(i = 0; i <= a; i++){
-            printf("\x08");
-    }
-    return 0;
+	for(i = 0; i <= a; i++){
+		printf("\x08");
+	}
+	return 0;
 }
