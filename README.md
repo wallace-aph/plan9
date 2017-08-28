@@ -1,2 +1,2 @@
 # plan9
-Plan9 configurations &amp; themes
+Plan9 configurations, themes, & converted fonts
