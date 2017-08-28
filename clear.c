@@ -2,8 +2,7 @@
 #include<stdlib.h>
 int main(){
 	FILE * f = fopen("/dev/text", "r");
-	while(!feof(f)){
-		fgetc(f);
+	while(fgetc(f) != eof){
 		printf("\x08");
 	}
 	fclose(f);
